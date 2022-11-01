@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./idex.css">
+</head>
+<body class="page">
+    <form  action="http://localhost:3000/" method="POST">
+        <label class="calc">
+        Введите пример:
+        <input class="calc__input" name="firstValue" type="number">
+        <select class="calc__options" name="operator" id="operator-select">
+            <option value="">-- Выберите действие --</option>
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+        <input class="calc__input" name="secondValue" type="number">
+        <input class="calc__submit" type="submit" value="="> 
+        </label>
+    </form>
+</body>
+</html>
